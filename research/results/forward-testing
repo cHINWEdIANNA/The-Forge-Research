@@ -1,0 +1,68 @@
+# Forward-Testing Results
+
+This page tracks genuinely unseen forward performance for strategies currently under evaluation in The Forge.
+
+Results are recorded in R-multiples to separate strategy performance from account size and position sizing.
+
+## V13 — SELL Baseline
+
+| Period | Trades | W/L | Win Rate | Net R | Profit Factor | Expectancy |
+|---|---:|---:|---:|---:|---:|---:|
+| Week 1 | 9 | 8 / 1 | 88.9% | +15R | 16.00 | +1.67R |
+| Week 2 | 11 | 3 / 8 | 27.3% | -2R | 0.75 | -0.18R |
+| **Cumulative** | **20** | **11 / 9** | **55.0%** | **+13R** | **2.44** | **+0.65R** |
+
+**Status:** CONTINUE
+
+The contrast between Week 1 and Week 2 demonstrates why short-term win rate is not used as the primary measure of strategy quality.
+
+---
+
+## V17 — Filtered SELL
+
+| Period | Trades | W/L | Win Rate | Net R | Profit Factor | Expectancy |
+|---|---:|---:|---:|---:|---:|---:|
+| Week 1 | 5 | 4 / 1 | 80.0% | +7R | 8.00 | +1.40R |
+| Week 2 | 3 | 1 / 2 | 33.3% | 0R | 1.00 | 0.00R |
+| **Cumulative** | **8** | **5 / 3** | **62.5%** | **+7R** | **3.33** | **+0.875R** |
+
+**Status:** CONTINUE
+
+V17 trades a more selective subset of the SELL research. Its smaller sample means substantially more forward evidence is required before comparing it conclusively with V13.
+
+---
+
+## V19 — Trend / Breakout BUY
+
+**Forward trades recorded:** 0
+
+**Status:** CONTINUE / WAIT
+
+The strategy remains frozen. Lack of qualifying setups is not treated as evidence for changing its rules.
+
+---
+
+## Experimental BUY Control
+
+The BUY component of the experimental bidirectional strategy currently has:
+
+- 19 trades
+- 4 wins / 15 losses
+- 21.1% win rate
+- -7R
+- Profit Factor: 0.53
+- Expectancy: -0.37R
+
+**Status:** RESEARCH ONLY / SHELVED
+
+The weak BUY results are retained publicly because failed hypotheses are part of the research record.
+
+---
+
+## Important
+
+These are small forward-test samples and should not be interpreted as estimates of future returns.
+
+Strategies remain frozen during forward testing to reduce the risk of adapting parameters to recently observed outcomes.
+
+Full methodology and historical context are documented in the latest **The Forge Systematic Trading Research Chronicle**.
